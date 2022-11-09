@@ -1,0 +1,10 @@
+
+const pokeApi = {}
+
+pokeApi.getPokemons = (offset = 1, limit = 9) => {
+  const url = `https://pokeapi.co/api/v2/pokemon?offset=${offset}&limit=${limit}`;
+  return fetch(url)
+    .then((response) => response.json())
+    .then((jsonBody) => jsonBody.results)
+    .catch ((error) => console.error(erro))
+}
