@@ -83,7 +83,6 @@
   margin: 0.5rem;
   padding: 1rem;
   border-radius: 1rem;
-  background-color: #49d0b0;
   display: flex;
   flex-direction: column;
 }
@@ -115,12 +114,13 @@
 }
 
 .pokemon .detail .types .type {
-  background-color: #61e1ca;
   color: white;
   padding: 0.25rem 0.5rem;
   margin: 0.25rem 0;
   font-size: 0.625rem;
   border-radius: 1rem;
+  filter: brightness(1.1);
+  text-align: center;
 }
 
 .pokemon .detail img {

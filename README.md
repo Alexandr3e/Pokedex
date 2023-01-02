@@ -1,2 +1,0 @@
-# pokedex
- List of Pokemons
